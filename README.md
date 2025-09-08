@@ -8,11 +8,11 @@ Clone the script using curl:
 
 Convert it to an executable:
 
-`chmod +x arch-install-script.sh`
+`chmod +x script.sh`
 
 Execute it:
 
-`./arch-install-script.sh`
+`./script.sh`
 
 **Pre-Requisites:**
 
