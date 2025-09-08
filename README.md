@@ -4,7 +4,7 @@ This is a simple script which install Arch Linux with just enough items to satis
 **Installation:**
 Clone the script using curl:
 
-`curl -LO https://https://gist.github.com/Tanziruz/f322c4a7c3d840db61aff18eb8b60868/raw/arch-install-script.sh`
+`curl -LO https://raw.githubusercontent.com/Tanziruz/Arch-Install-Script/main/script.sh`
 
 Convert it to an executable:
 
