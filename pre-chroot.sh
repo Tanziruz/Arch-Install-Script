@@ -22,7 +22,7 @@ PKGS=(
   mesa xf86-video-intel vulkan-intel libva-intel-driver
   bluez bluez-utils
   pipewire pipewire-pulse wireplumber
-  git vim sudo zsh curl go reflector
+  git nvim sudo zsh curl go reflector
 
   # Hyprland (base)
   hyprland wlroots wayland wayland-protocols xorg-xwayland
