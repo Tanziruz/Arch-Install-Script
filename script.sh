@@ -123,7 +123,9 @@ grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB --rec
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # Full KDE + apps
-pacman --noconfirm -Syu plasma-desktop plasma-pa plasma-nm plasma-systemmonitor kscreen kwalletmanager kwallet-pam bluedevil powerdevil power-profiles-daemon kdeplasma-addons xdg-desktop-portal-kde kde-gtk-config breeze-gtk cups print-manager konsole dolphin ffmpegthumbs firefox kate okular gwenview ark spectacle dragon
+pacman --noconfirm -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty dms-shell-niri matugen cava qt6-multimedia-ffmpeg
+
+systemctl --user add-wants niri.service dms
 
 EOF
 
